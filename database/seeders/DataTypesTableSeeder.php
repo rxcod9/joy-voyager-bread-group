@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'groups',
                 'display_name_singular' => __('joy-voyager-bread-group::seeders.data_types.group.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-group::seeders.data_types.group.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-group voyager-group',
                 'model_name'            => 'Joy\\VoyagerBreadGroup\\Models\\Group',
                 // 'policy_name'           => 'Joy\\VoyagerBreadGroup\\Policies\\GroupPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadGroup\\Http\\Controllers\\VoyagerBreadGroupController',
