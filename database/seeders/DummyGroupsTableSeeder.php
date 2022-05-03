@@ -14,7 +14,7 @@ class DummyGroupsTableSeeder extends Seeder
      */
     public function run()
     {
-        $count = 100;
+        $count = 20;
         Group::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
